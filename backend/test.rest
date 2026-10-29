@@ -1,0 +1,13 @@
+### Test GET / WEBSITE
+GET http://localhost:4000/
+### Test GET /snackslist WEBSITE
+GET http://localhost:4000/snackslist
+### DATA ENDPOINT
+GET http://localhost:4000/api/data
+###DATA ENDPOINT FOR POST ADDING A USER
+POST http://localhost:4000/api/data
+Content-Type: application/json
+
+{
+    "name": "MiMi"
+}
